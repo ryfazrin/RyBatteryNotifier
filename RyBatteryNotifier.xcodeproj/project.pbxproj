@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF76E5112DB627B7008E898C /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF76E5102DB627B7008E898C /* IOKit.framework */; };
+		DF76E51A2DB62A6E008E898C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DF76E5192DB62A69008E898C /* .gitignore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF76E4F32DB626C8008E898C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF76E4D92DB626C7008E898C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF76E4E02DB626C7008E898C;
+			remoteInfo = RyBatteryNotifier;
+		};
+		DF76E4FD2DB626C8008E898C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF76E4D92DB626C7008E898C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF76E4E02DB626C7008E898C;
+			remoteInfo = RyBatteryNotifier;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF76E4E12DB626C7008E898C /* RyBatteryNotifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RyBatteryNotifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF76E4F22DB626C8008E898C /* RyBatteryNotifierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RyBatteryNotifierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF76E4FC2DB626C8008E898C /* RyBatteryNotifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RyBatteryNotifierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF76E5102DB627B7008E898C /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		DF76E5192DB62A69008E898C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DF76E4E32DB626C7008E898C /* RyBatteryNotifier */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RyBatteryNotifier;
+			sourceTree = "<group>";
+		};
+		DF76E4F52DB626C8008E898C /* RyBatteryNotifierTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RyBatteryNotifierTests;
+			sourceTree = "<group>";
+		};
+		DF76E4FF2DB626C8008E898C /* RyBatteryNotifierUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RyBatteryNotifierUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF76E4DE2DB626C7008E898C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF76E5112DB627B7008E898C /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF76E4EF2DB626C8008E898C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF76E4F92DB626C8008E898C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF76E4D82DB626C7008E898C = {
+			isa = PBXGroup;
+			children = (
+				DF76E5192DB62A69008E898C /* .gitignore */,
+				DF76E4E32DB626C7008E898C /* RyBatteryNotifier */,
+				DF76E4F52DB626C8008E898C /* RyBatteryNotifierTests */,
+				DF76E4FF2DB626C8008E898C /* RyBatteryNotifierUITests */,
+				DF76E50F2DB627B7008E898C /* Frameworks */,
+				DF76E4E22DB626C7008E898C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF76E4E22DB626C7008E898C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF76E4E12DB626C7008E898C /* RyBatteryNotifier.app */,
+				DF76E4F22DB626C8008E898C /* RyBatteryNotifierTests.xctest */,
+				DF76E4FC2DB626C8008E898C /* RyBatteryNotifierUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF76E50F2DB627B7008E898C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF76E5102DB627B7008E898C /* IOKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF76E4E02DB626C7008E898C /* RyBatteryNotifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF76E5062DB626C8008E898C /* Build configuration list for PBXNativeTarget "RyBatteryNotifier" */;
+			buildPhases = (
+				DF76E4DD2DB626C7008E898C /* Sources */,
+				DF76E4DE2DB626C7008E898C /* Frameworks */,
+				DF76E4DF2DB626C7008E898C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DF76E4E32DB626C7008E898C /* RyBatteryNotifier */,
+			);
+			name = RyBatteryNotifier;
+			packageProductDependencies = (
+			);
+			productName = RyBatteryNotifier;
+			productReference = DF76E4E12DB626C7008E898C /* RyBatteryNotifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF76E4F12DB626C8008E898C /* RyBatteryNotifierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF76E5092DB626C8008E898C /* Build configuration list for PBXNativeTarget "RyBatteryNotifierTests" */;
+			buildPhases = (
+				DF76E4EE2DB626C8008E898C /* Sources */,
+				DF76E4EF2DB626C8008E898C /* Frameworks */,
+				DF76E4F02DB626C8008E898C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF76E4F42DB626C8008E898C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DF76E4F52DB626C8008E898C /* RyBatteryNotifierTests */,
+			);
+			name = RyBatteryNotifierTests;
+			packageProductDependencies = (
+			);
+			productName = RyBatteryNotifierTests;
+			productReference = DF76E4F22DB626C8008E898C /* RyBatteryNotifierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF76E4FB2DB626C8008E898C /* RyBatteryNotifierUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF76E50C2DB626C8008E898C /* Build configuration list for PBXNativeTarget "RyBatteryNotifierUITests" */;
+			buildPhases = (
+				DF76E4F82DB626C8008E898C /* Sources */,
+				DF76E4F92DB626C8008E898C /* Frameworks */,
+				DF76E4FA2DB626C8008E898C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF76E4FE2DB626C8008E898C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DF76E4FF2DB626C8008E898C /* RyBatteryNotifierUITests */,
+			);
+			name = RyBatteryNotifierUITests;
+			packageProductDependencies = (
+			);
+			productName = RyBatteryNotifierUITests;
+			productReference = DF76E4FC2DB626C8008E898C /* RyBatteryNotifierUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF76E4D92DB626C7008E898C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					DF76E4E02DB626C7008E898C = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					DF76E4F12DB626C8008E898C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = DF76E4E02DB626C7008E898C;
+					};
+					DF76E4FB2DB626C8008E898C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = DF76E4E02DB626C7008E898C;
+					};
+				};
+			};
+			buildConfigurationList = DF76E4DC2DB626C7008E898C /* Build configuration list for PBXProject "RyBatteryNotifier" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF76E4D82DB626C7008E898C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DF76E4E22DB626C7008E898C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF76E4E02DB626C7008E898C /* RyBatteryNotifier */,
+				DF76E4F12DB626C8008E898C /* RyBatteryNotifierTests */,
+				DF76E4FB2DB626C8008E898C /* RyBatteryNotifierUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF76E4DF2DB626C7008E898C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF76E51A2DB62A6E008E898C /* .gitignore in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF76E4F02DB626C8008E898C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF76E4FA2DB626C8008E898C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF76E4DD2DB626C7008E898C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF76E4EE2DB626C8008E898C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF76E4F82DB626C8008E898C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF76E4F42DB626C8008E898C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF76E4E02DB626C7008E898C /* RyBatteryNotifier */;
+			targetProxy = DF76E4F32DB626C8008E898C /* PBXContainerItemProxy */;
+		};
+		DF76E4FE2DB626C8008E898C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF76E4E02DB626C7008E898C /* RyBatteryNotifier */;
+			targetProxy = DF76E4FD2DB626C8008E898C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DF76E5042DB626C8008E898C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF76E5052DB626C8008E898C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		DF76E5072DB626C8008E898C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RyBatteryNotifier/RyBatteryNotifier.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RyBatteryNotifier/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ryfazrin.RyBatteryNotifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DF76E5082DB626C8008E898C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RyBatteryNotifier/RyBatteryNotifier.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RyBatteryNotifier/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ryfazrin.RyBatteryNotifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DF76E50A2DB626C8008E898C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ryfazrin.RyBatteryNotifierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RyBatteryNotifier.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RyBatteryNotifier";
+			};
+			name = Debug;
+		};
+		DF76E50B2DB626C8008E898C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ryfazrin.RyBatteryNotifierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RyBatteryNotifier.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RyBatteryNotifier";
+			};
+			name = Release;
+		};
+		DF76E50D2DB626C8008E898C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ryfazrin.RyBatteryNotifierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = RyBatteryNotifier;
+			};
+			name = Debug;
+		};
+		DF76E50E2DB626C8008E898C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ryfazrin.RyBatteryNotifierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = RyBatteryNotifier;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF76E4DC2DB626C7008E898C /* Build configuration list for PBXProject "RyBatteryNotifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF76E5042DB626C8008E898C /* Debug */,
+				DF76E5052DB626C8008E898C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF76E5062DB626C8008E898C /* Build configuration list for PBXNativeTarget "RyBatteryNotifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF76E5072DB626C8008E898C /* Debug */,
+				DF76E5082DB626C8008E898C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF76E5092DB626C8008E898C /* Build configuration list for PBXNativeTarget "RyBatteryNotifierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF76E50A2DB626C8008E898C /* Debug */,
+				DF76E50B2DB626C8008E898C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF76E50C2DB626C8008E898C /* Build configuration list for PBXNativeTarget "RyBatteryNotifierUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF76E50D2DB626C8008E898C /* Debug */,
+				DF76E50E2DB626C8008E898C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF76E4D92DB626C7008E898C /* Project object */;
+}
