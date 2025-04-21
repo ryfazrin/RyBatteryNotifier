@@ -10,6 +10,8 @@ import UserNotifications
 
 @main
 struct RyBatteryNotifierApp: App {
+    @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
     init() {
         // Minta izin notifikasi saat pertama kali app dijalankan
         UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge]) { granted, error in

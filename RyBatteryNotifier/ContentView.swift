@@ -27,6 +27,21 @@ struct ContentView: View {
             Text(batteryService.isCharging ? "🔌 Sedang Charging" : "🔋 Tidak Charging")
                 .foregroundColor(batteryService.isCharging ? .green : .red)
             
+            Toggle("Aktifkan Automatic Discharge", isOn: Binding(
+                get: {
+                    batteryService.autoDischargeEnabled
+                },
+                set: {
+                    batteryService.autoDischargeEnabled = $0
+                    UserDefaults.standard.setValue($0, forKey: "autoDischargeEnabled")
+                }
+            ))
+
+            if batteryService.isInDischargeMode {
+                Text("🔌 Dalam Mode Discharge")
+                    .foregroundColor(.orange)
+            }
+            
             Spacer()
 
         }
