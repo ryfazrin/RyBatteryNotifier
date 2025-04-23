@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF0D52AD2DB631F900E7A57D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF0D52AB2DB631F500E7A57D /* Info.plist */; };
 		DF76E5112DB627B7008E898C /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF76E5102DB627B7008E898C /* IOKit.framework */; };
 		DF76E51A2DB62A6E008E898C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DF76E5192DB62A69008E898C /* .gitignore */; };
 /* End PBXBuildFile section */
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF0D52AB2DB631F500E7A57D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF76E4E12DB626C7008E898C /* RyBatteryNotifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RyBatteryNotifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF76E4F22DB626C8008E898C /* RyBatteryNotifierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RyBatteryNotifierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF76E4FC2DB626C8008E898C /* RyBatteryNotifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RyBatteryNotifierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,6 +91,7 @@
 				DF76E4FF2DB626C8008E898C /* RyBatteryNotifierUITests */,
 				DF76E50F2DB627B7008E898C /* Frameworks */,
 				DF76E4E22DB626C7008E898C /* Products */,
+				DF0D52AB2DB631F500E7A57D /* Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -230,6 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF0D52AD2DB631F900E7A57D /* Info.plist in Resources */,
 				DF76E51A2DB62A6E008E898C /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
